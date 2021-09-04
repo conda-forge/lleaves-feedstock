@@ -21,6 +21,7 @@ requirements:
     - python >=3.6
     - setuptools-scm
   run:
+    - dataclasses  # [py<37]
     - llvmlite >=0.36
     - numpy
     - python >=3.6
