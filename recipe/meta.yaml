@@ -18,13 +18,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools-scm
+    - python
+    - setuptools_scm
   run:
     - dataclasses  # [py<37]
     - llvmlite >=0.36
     - numpy
-    - python >=3.6
+    - python
 
 test:
   imports:
