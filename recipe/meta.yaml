@@ -24,7 +24,6 @@ requirements:
     - llvmlite >=0.36
     - numpy
     - python >=3.7
-    - pandas
 
 test:
   imports:
