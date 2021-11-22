@@ -1,5 +1,5 @@
 {% set name = "lleaves" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,23 +8,23 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lleaves-{{ version }}.tar.gz
-  sha256: 0869f40ba22a81e05f45fc348c52263aaa8862585b8dbb4e3722a53254e65cae
+  sha256: 5ea59e40bdf1d3a2af8703655bab7fa772cd7b34127b74ce0cb6d9f2b23274fa
 
 build:
-  number: 1
-  skip: true  # [py2k]
+  number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
     - setuptools_scm
   run:
-    - dataclasses  # [py<37]
     - llvmlite >=0.36
     - numpy
-    - python
+    - python >=3.7
+    - pandas
 
 test:
   imports:
