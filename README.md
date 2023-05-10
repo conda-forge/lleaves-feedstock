@@ -1,11 +1,11 @@
-About lleaves
-=============
+About lleaves-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lleaves-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/siboehm/lleaves
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lleaves-feedstock/blob/main/LICENSE.txt)
 
 Summary: LLVM-based compiler for LightGBM models
 
