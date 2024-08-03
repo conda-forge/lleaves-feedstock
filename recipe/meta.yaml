@@ -1,5 +1,5 @@
 {% set name = "lleaves" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lleaves-{{ version }}.tar.gz
-  sha256: ad7cf674fd92dca8acf46092a859ddc5fb091c49267eb1b2a544494393ce868b
+  sha256: 8fb26c111ae33755a132f893ef0ab13717a7877815b5b36320d5db7c8cdf4fab
 
 build:
   number: 0
